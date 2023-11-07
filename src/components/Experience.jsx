@@ -5,7 +5,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 
 const Experience = () => {
     return (
-        <section>
+        <section id='experience'>
             <Container className="Experience-section pb-5">
                 <h1 className='global-heading'>Experiences</h1>
                 <p className='text-dark text-center'>These are the companies that I have worked in and was able to gain experience from.</p>

@@ -544,7 +544,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding:30px ;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -713,5 +713,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 10px;
     margin-right: 10px;
     color: #2a2e37;
+
+}
+/* testimonial-section */
+.testimonial-card img{
+  border-radius: 50%;
+  padding: 10px;
 
 }
