@@ -308,18 +308,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #ffffff;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  color: #000000;
 }
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill p {
-    color: #B8B8B8;
+.skill-bx p {
+    color: #000000;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -561,6 +562,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.2em;
+  text-align: center;
+  font-size: 45px;
 }
 .new-email-bx {
   background: #fff;
@@ -593,29 +596,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   right: 0;
 }
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  border-radius: 18px;
-}
+
 .footer img {
   width: 26%;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #858383;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
