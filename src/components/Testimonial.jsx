@@ -1,17 +1,15 @@
-import { Card, Col, Row,  } from "react-bootstrap";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import { Card } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import client1 from '../assets/clients/image.jpg'
+import client2 from '../assets/clients/1695658123605.jpeg'
+import client3 from '../assets/clients/com-man-img-2.jpg'
+
 
 export const Testimonial = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+      
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -33,18 +31,18 @@ export const Testimonial = () => {
 
       name:"jasonycobb", 
       description: "Very reliable and fast. Job done brilliantly. Don't hesitate to use his service. Seller is one of the best I've used so far. highly recommended.",
-      imgUrl: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=740&t=st=1699370119~exp=1699370719~hmac=2f42e6d9f20405c8429ad719601d5a4e3f55f632638e8fa28ea2f3a8112232ec",
+      imgUrl: client3,
     },
     {
 
       name:"Natalie", 
       description: "Rafi is always helpful and communicative. This time, he collaborated with me to solve a mystery of my completely-deleted business website. I did not have the comfort level to proceed with solving the problem on my own. I provided him with what appeared to be older backups in my cpanel and he sorted through everything and restored my site fully",
-      imgUrl: "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/profile/photos/2850652/original/image.jpg",
+      imgUrl: client1,
     },
     {
       name:"Emmanuel Sandoval",
       description:"It is a genuine pleasure to recommend Rafi as an exceptional web developer. During the time we worked together, I was amazed by his talent and dedication to the world of web development. Rafi is a valuable addition to any web development team. His work ethic, professionalism, and focus on quality set him apart as a leader in his field.I highly recommend Rafi for any web development project. I'm confident he will continue to have a positive impact on any company or project he participates in.Working with Rafi is an enriching experience, and I would not hesitate to collaborate with him on future projects.",
-      imgUrl:"https://media.licdn.com/dms/image/D4E03AQG1FWUKxf5wVw/profile-displayphoto-shrink_400_400/0/1695658123605?e=1704931200&v=beta&t=r2Sp2caHMo0QC39cWv57_0wrcZHlTjUAO6EvtxbAYjE",
+      imgUrl:client2,
     }
    
 
