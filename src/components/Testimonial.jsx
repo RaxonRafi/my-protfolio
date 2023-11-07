@@ -33,7 +33,7 @@ export const Testimonial = () => {
 
       name:"jasonycobb", 
       description: "Very reliable and fast. Job done brilliantly. Don't hesitate to use his service. Seller is one of the best I've used so far. highly recommended.",
-      imgUrl: "",
+      imgUrl: "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=740&t=st=1699370119~exp=1699370719~hmac=2f42e6d9f20405c8429ad719601d5a4e3f55f632638e8fa28ea2f3a8112232ec",
     },
     {
 
