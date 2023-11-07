@@ -8,7 +8,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
-export const Newsletter = () => {
+export const Testimonial = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -35,8 +35,8 @@ export const Newsletter = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>As a dedicated web application developer, I possess a versatile skill set that enables me to create innovative and robust digital solutions. My expertise spans both frontend and backend technologies, allowing me to craft seamless user experiences while ensuring the functionality and performance of web applications. Here are some of the key skills that I bring to the table:</p>
+                        <h2>Testimonial</h2>
+                       
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
