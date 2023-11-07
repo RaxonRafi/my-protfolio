@@ -51,7 +51,7 @@ const Experience = () => {
                                         </p>
                                         <span className='responsibilities'>Technologies I used:</span>
                                         <div className='tech-used'>
-                                            <span>JavaScrip</span>
+                                            <span>JavaScript</span>
                                             <span>Node.js</span>
                                             <span>Express.js</span>
                                             <span>React.js</span>

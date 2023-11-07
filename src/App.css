@@ -699,6 +699,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .company-name{
   font-size: 22px;
   color: #122746;
+  font-weight: bold;
 }
 .company-info{
   padding-left: 10px;
