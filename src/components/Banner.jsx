@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+//import { BsDownload } from 'react-bootstrap-icons';
+import { Download } from "react-bootstrap-icons";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -55,10 +56,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi! I'm Rafi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello and welcome to my corner of the web! I'm a passionate and creative web application developer with a love for turning ideas into interactive digital experiences. Whether it's crafting elegant user interfaces, optimizing backend performance, or solving complex coding challenges, I'm always excited to bring innovation to the digital world.</p>
-                  <a className="cv-btn text-white text-decoration-none" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1nZ7tUUKyYfNEQuc6GrEm5l2dMa-dfyc3/view?usp=sharing" download={true}>Download CV <ArrowRightCircle size={30} /></a>
+                  <a className="cv-btn text-white text-decoration-none tagline" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1nZ7tUUKyYfNEQuc6GrEm5l2dMa-dfyc3/view?usp=sharing" download={true}>Resume <Download size={30} /></a>
               </div>}
             </TrackVisibility>
           </Col>
