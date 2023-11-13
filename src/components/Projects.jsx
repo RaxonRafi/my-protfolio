@@ -1,15 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import newProject1 from '../assets/projects/lopexatechnologies.com.png'
-import newProject2 from '../assets/projects/passport.png'
-import newProject3 from '../assets/projects/website.png'
-import projImg1 from '../assets/projects/mosi.png'
-import projImg2 from '../assets/projects/react.png'
-import projImg3 from '../assets/projects/businessDic.png'
-import projImg4 from '../assets/projects/desk (1).png'
-import projImg5 from '../assets/projects/blackdiamond.png'
-import projImg6 from '../assets/projects/mahdimart.png'
-import colorSharp2 from "../assets/projects/updateScreen.png";
+import newProject1 from '../assets/projects/lopexatechnologies.com-min.png'
+import newProject2 from '../assets/projects/passport-min.png'
+import newProject3 from '../assets/projects/website-min.png'
+import projImg1 from '../assets/projects/mosi-min.png'
+import projImg2 from '../assets/projects/react-min.png'
+import projImg3 from '../assets/projects/businessDic-min.png'
+import projImg4 from '../assets/projects/desk (1)-min.png'
+import projImg5 from '../assets/projects/blackdiamond-min.png'
+import projImg6 from '../assets/projects/mahdimart-min.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -187,7 +186,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="colorSharp2"></img>
     </section>
   )
 }
